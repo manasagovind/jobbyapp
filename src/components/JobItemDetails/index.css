@@ -1,0 +1,47 @@
+.detailedCont {
+  background-color: #000000;
+  min-height: 100vh;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+li {
+  list-style-type: none;
+}
+.lifeDe {
+  display: flex;
+  flex-direction: row;
+}
+.simiUnOrder{
+  display:flex;
+  flex-direction:row;
+}
+.totalJobsec {
+  margin: 20px;
+  background-color: #2c364c;
+  margin-top: 10px;
+  border-radius: 15px;
+  padding: 20px;
+}
+.skillUnOrder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.desHeadWeb {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.locDes {
+  margin-right: 10px;
+}
+.ratingCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.locTyp {
+  display: flex;
+  flex-direction: row;
+}

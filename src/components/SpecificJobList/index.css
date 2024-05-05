@@ -1,0 +1,43 @@
+.jobList {
+  background-color: #2c364c;
+  border-radius: 20px;
+  list-style-type: none;
+  color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+}
+.loc{
+  margin-right:15px;
+}
+.locTye {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.startt {
+  color: #fbbf24;
+  margin-right: 10px;
+}
+.rattC {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+.jobDett {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logoTitleRat {
+  display: flex;
+  flex-direction: row;
+}
+.companyLogo {
+  margin-right: 20px;
+}
+.locTypePack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

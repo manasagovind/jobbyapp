@@ -1,0 +1,73 @@
+.jobCont {
+  min-height: 100vh;
+  background-color: #272727;
+  font-family: 'Roboto';
+}
+.jobContent {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #64748b;
+  border-radius: 8px;
+}
+.inputSearch {
+  background-color: transparent;
+}
+.jobContent4 {
+  width: 100%;
+}
+.jobun{
+  display:flex;
+  flex-direction:column;
+}
+
+.totalDet {
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .totalDet {
+    flex-direction: row;
+  }
+  .jobContent {
+    width: 30vw;
+  }
+  .jobContent2 {
+    display: none;
+    margin: 10px;
+
+    border: 1px solid #64748b;
+    border-radius: 8px;
+  }
+}
+.search-icon {
+  color: #64748b;
+  font-size: 24px;
+}
+.beckHead {
+  color: #ffffff;
+}
+.jobContent3 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #64748b;
+  border-radius: 8px;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .jobContent3 {
+    display: none;
+  }
+}
+.searchbutt {
+  border: none;
+  background-color: transparent;
+  margin-right: 20px;
+}
+input {
+  border: none;
+}

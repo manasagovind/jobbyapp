@@ -1,0 +1,16 @@
+.simiList {
+  margin: 20px;
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 20px;
+}
+.logoTitratin {
+  display: flex;
+  flex-direction: row;
+}
+.simiImg {
+  margin-right: 10px;
+}
+.locate{
+  margin-right:15px;
+}

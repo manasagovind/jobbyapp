@@ -1,0 +1,92 @@
+.loginCont {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #000000;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.require {
+  color: #ff0b37;
+  font-size: 12px;
+}
+.loginDe {
+  background-color: #4f46e5;
+  color: #ffffff;
+  border: none;
+  border-radius: 9px;
+  margin-top: 15px;
+  align-self: flex-stretch;
+  padding: 10px;
+}
+.formCont {
+  background-color: #2c364c;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 20px;
+  height: 50vh;
+}
+.inputDet {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #64748b;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.inputt {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+label {
+  margin-right: 15px;
+}
+.logoo {
+  width: 30%;
+  align-self: center;
+  margin-bottom: 10px;
+}
+.forming {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+@media all and (min-width: 768px) {
+  .logoo {
+    margin-bottom: 30px;
+  }
+  .inputt {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  label {
+    margin-bottom: 5px;
+  }
+  .inputDet {
+    font-size: 25px;
+  }
+  .require {
+    font-size: 25px;
+  }
+  .loginDe {
+    font-size: 25px;
+  }
+  .formCont {
+    height: 60vh;
+  }
+}

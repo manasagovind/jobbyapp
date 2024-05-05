@@ -1,0 +1,6 @@
+.listingView {
+  display: flex;
+  flex-direction: row;
+  color:#ffffff;
+  font-size:22px;
+}

@@ -1,0 +1,17 @@
+.not-found-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:#121212;
+    color:#ffffff;
+    font-family:"ROboto";
+    font-size:12px;
+    padding:15px;
+    height:100vh;
+}
+@media all and (min-width:768px){
+    .not-found-container{
+        font-size:25px;
+    }
+}
