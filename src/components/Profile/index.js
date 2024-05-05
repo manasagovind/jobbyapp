@@ -51,9 +51,13 @@ class Profile extends Component {
     </div>
   )
 
+  retry=()=>{
+    this.getProfile()
+  }
+
   renderfailureView = () => (
     <div className="faill">
-      <button type="button" className="retrybutt">
+      <button type="button" onClick={this.retry} className="retrybutt">
         Retry
       </button>
     </div>
