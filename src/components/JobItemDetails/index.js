@@ -87,6 +87,10 @@ class JobItemDetails extends Component {
     </div>
   )
 
+  retry=()=>{
+    this.getJobDetails()
+  }
+
   renderFailureView = () => (
     <div className="failCont">
       <img
@@ -98,7 +102,7 @@ class JobItemDetails extends Component {
       <p className="failPara">
         We cannot seem to find the page you are looking for{' '}
       </p>
-      <button type="button" className="retrybutt">
+      <button type="button" onClick={this.retry} className="retrybutt">
         Retry
       </button>
     </div>
