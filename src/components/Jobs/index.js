@@ -129,7 +129,10 @@ class Jobs extends Component {
       <Loader type="ThreeDots" color="#ffffff" height="50" width="50" />
     </div>
   )
-
+  retry=()=>{
+    this.getJobs()
+  }
+  
   renderfailureView = () => (
     <div className="failCont">
       <img
@@ -141,7 +144,7 @@ class Jobs extends Component {
       <p className="failPara">
         We cannot seem to find the page you are looking for
       </p>
-      <button type="button" className="retrybutt">
+      <button type="button" onClick={this.retry} className="retrybutt">
         Retry
       </button>
     </div>
