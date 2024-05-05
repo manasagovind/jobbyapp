@@ -76,7 +76,7 @@ class LoginForm extends Component {
               <label htmlFor="password">PASSWORD</label>
               <input
                 id="password"
-                type="text"
+                type="password"
                 value={password}
                 onChange={this.changePassword}
                 placeholder="Password"
